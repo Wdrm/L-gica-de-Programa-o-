@@ -8,7 +8,8 @@ public class Main {
             System.out.println("Qual Operação Vamos Realizar\n" +
                     "0 Encerra\n" +
                     "1 Àrea e Perímetro do Retângulo\n"+
-                    "2 Área e Perímetro do Quadrado\n");
+                    "2 Área e Perímetro do Quadrado\n"+
+                    "3 Área e Perímetro da Circunferência\n");
 
                 int opcao = sc.nextInt();
         switch (opcao){
