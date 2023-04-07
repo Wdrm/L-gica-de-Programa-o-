@@ -41,6 +41,21 @@ public class Diversos {
             System.out.println("Valor do perímetro:\n"+perimetro);
 
         }
+        
+         public void triangulo(){
+         // dado três lados de um triângulo
+        // determine o perímetro
+              Scanner sc = new Scanner(System.in);
+            System.out.println("Informe lado A:\n");
+            double a = sc.nextDouble();
+            System.out.println("Informe lado B:\n");
+            double b = sc.nextDouble();
+            System.out.printf("Informe lado C:\n");
+            double c = sc.nextDouble();
+            double perimetro = a+b+c;
+            System.out.printf("Valor do perímetro:\n"+perimetro);
+
+        }
 
 
 
