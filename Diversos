@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Diversos {
+        public void retangulo (){
+            // Dado a tamanho da base e da altura de um retângulo
+            // calcular área e o seu prerímetro
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Informe a medida da base:\n");
+                double base = sc.nextDouble();
+                 System.out.println("Informe a medida da bltura\n");
+                double altura = sc.nextDouble();
+                double area = base*altura;
+                 System.out.println("valor da área:\n"+area);
+                 double perimetro = 2*(base+altura);
+                System.out.println("valor do perímetro:\n"+perimetro);
+
+        }
+
+        public void quadrado(){
+            //dado o tamanho do lado de um quadrado
+            // calcule a área e o perímetro
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Informe a medida de um dos lados\n");
+            double lado = sc.nextDouble();
+            double area = lado*2;
+            System.out.println("valor da área:\n"+area);
+           double perimetro = 4*lado;
+            System.out.println("valor do perímetro:\n"+perimetro);
+
+        }
+
+
+
+
+
+}
