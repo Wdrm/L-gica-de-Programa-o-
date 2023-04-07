@@ -18,6 +18,9 @@ public class Main {
             break;
             case 2:Diversos dive = new Diversos();dive.quadrado();
             break;
+            case 3: Diversos diver = new Diversos();diver.circunferencia();
+            break;
+
 
          }
 
