@@ -21,6 +21,8 @@ public class Main {
             break;
             case 3: Diversos diver = new Diversos();diver.circunferencia();
             break;
+            case 4: Diversos diveD = new Diversos(); diveD.triangulo();
+            break;
 
 
          }
