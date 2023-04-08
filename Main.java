@@ -11,7 +11,8 @@ public class Main {
                     "2 Área e Perímetro do Quadrado\n"+
                     "3 Área e Perímetro da Circunferência\n"+
                     "4 Perímetro do Triângulo\n"+
-                    "5 Próximo Número\n");
+                    "5 Próximo Número\n"+
+                    "6 Resto da Divisão\n");
 
                 int opcao = sc.nextInt();
         switch (opcao){
@@ -26,6 +27,8 @@ public class Main {
             case 4: Diversos diveD = new Diversos(); diveD.triangulo();
             break;
             case 5: Diversos divE = new Diversos(); divE.proximoNumero();
+            break;
+            case 6: Diversos divF = new Diversos(); divF.restoDivisao();
             break;
 
          }
