@@ -18,11 +18,11 @@ public class Main {
         switch (opcao){
             case 0:
                 break;
-            case 1: Diversos div = new Diversos(); div.retangulo();
+            case 1: Diversos divA = new Diversos(); divA.retangulo();
             break;
-            case 2:Diversos dive = new Diversos();dive.quadrado();
+            case 2:Diversos divB = new Diversos();divB.quadrado();
             break;
-            case 3: Diversos diver = new Diversos();diver.circunferencia();
+            case 3: Diversos divC = new Diversos();divC.circunferencia();
             break;
             case 4: Diversos diveD = new Diversos(); diveD.triangulo();
             break;
