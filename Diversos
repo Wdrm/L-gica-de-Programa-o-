@@ -66,5 +66,19 @@ public class Diversos {
             System.out.println("Próximo Número:\n"+proximoNum);
 
         }
+        
+        public void restoDivisao(){
+            //ler dois números
+            // exibir o quociente e o resto da divisão entre eles
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Digite Dois Números:\n");
+            int numA = sc.nextInt();
+            int numB = sc.nextInt();
+            int div = numA/numB;
+            int resto = numA%numB;
+            System.out.println("A divisão de: "+numA+" por "+numB+" = "+div);
+            System.out.println("Resto da divisão de: "+numA+" por "+numB+" = "+resto);
+
+        }
 
 }
