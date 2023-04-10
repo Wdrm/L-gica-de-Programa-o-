@@ -15,7 +15,8 @@ public class Main {
                     "6 Resto da Divisão\n"+
                     "7 Idade em Dias\n"+
                     "8 Conversão de Fahrenheit para Celcius\n"+
-                    "9 Capacidade de Armazenamento\n"); 
+                    "9 Capacidade de Armazenamento\n"+
+                    "10 Conversão Inteiro para Binário:\n");
                     
 
                 int opcao = sc.nextInt();
@@ -39,6 +40,8 @@ public class Main {
             case 8: Diversos divH =new Diversos(); divH.temperatura();
             break;
             case 9: Diversos divI = new Diversos(); divI.volume();
+            break;
+            case 10: Diversos divJ = new Diversos(); divJ.conversaoInteiro();
             break;
      
          }
