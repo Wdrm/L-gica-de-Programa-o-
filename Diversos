@@ -80,5 +80,31 @@ public class Diversos {
             System.out.println("Resto da divisão de: "+numA+" por "+numB+" = "+resto);
 
         }
+        public void idadeEmDias(){
+            //solicitar a idade em dias,
+            // informar em anos meses
+            Scanner sc = new Scanner(System.in);
+            int mes =30;
+            int dia = 1;
+            System.out.println("Informe Sua Idade em Dias:\n");
+            int idadeDias = sc.nextInt();
+            int ano = idadeDias/365;
+            int meses = (idadeDias%365)/mes;
+            int dias = (idadeDias-365)/mes%dia;
+            System.out.println("Você tem "+ano+" anos , e " +meses+" meses.");
+
+        }
+
+        public void temperatura(){
+            //lê temperatura em fahrenheit e exibe em celcius
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Informe a Temperatura em Fahrenheit:\n");
+            int temperatura = sc.nextInt();
+           double conversao = (temperatura-32)/1.8;
+            System.out.println("Conversão de °F para para °C\n"+
+                    conversao+" °C");
+
+        }
+
 
 }
