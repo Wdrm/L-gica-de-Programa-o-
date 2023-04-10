@@ -12,7 +12,9 @@ public class Main {
                     "3 Área e Perímetro da Circunferência\n"+
                     "4 Perímetro do Triângulo\n"+
                     "5 Próximo Número\n"+
-                    "6 Resto da Divisão\n");
+                    "6 Resto da Divisão\n"+
+                    "7 Idade em Dias\n");
+                    
 
                 int opcao = sc.nextInt();
         switch (opcao){
@@ -30,6 +32,9 @@ public class Main {
             break;
             case 6: Diversos divF = new Diversos(); divF.restoDivisao();
             break;
+            case 7: Diversos divG = new Diversos(); divG.idadeEmDias();
+            break;
+            
 
          }
 
