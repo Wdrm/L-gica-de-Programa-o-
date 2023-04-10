@@ -120,6 +120,22 @@ public class Diversos {
 
 
         }
+        
+         public void conversaoInteiro(){
+            // solicite um inteiro e converta em binario
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Informe um inteiro:\n");
+            int inteiro = sc.nextInt();
+
+               String binario = Integer.toBinaryString(inteiro);
+                System.out.println(binario);
+                // Usando métodos integrados
+            //A solução padrão para converter um número em binário
+            // em Java é usar o Integer.toBinaryString() método,
+            // que retorna a representação binária do inteiro
+            // especificado no formato de string.
+
+            }
 
 
 }
