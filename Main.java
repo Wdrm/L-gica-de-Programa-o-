@@ -14,7 +14,8 @@ public class Main {
                     "5 Próximo Número\n"+
                     "6 Resto da Divisão\n"+
                     "7 Idade em Dias\n"+
-                    "8 Conversão de Fahrenheit para Celcius\n"); 
+                    "8 Conversão de Fahrenheit para Celcius\n"+
+                    "9 Capacidade de Armazenamento\n"); 
                     
 
                 int opcao = sc.nextInt();
@@ -36,6 +37,8 @@ public class Main {
             case 7: Diversos divG = new Diversos(); divG.idadeEmDias();
             break;
             case 8: Diversos divH =new Diversos(); divH.temperatura();
+            break;
+            case 9: Diversos divI = new Diversos(); divI.volume();
             break;
      
          }
