@@ -13,7 +13,8 @@ public class Main {
                     "4 Perímetro do Triângulo\n"+
                     "5 Próximo Número\n"+
                     "6 Resto da Divisão\n"+
-                    "7 Idade em Dias\n");
+                    "7 Idade em Dias\n"+
+                    "8 Conversão de Fahrenheit para Celcius\n"); 
                     
 
                 int opcao = sc.nextInt();
@@ -34,8 +35,9 @@ public class Main {
             break;
             case 7: Diversos divG = new Diversos(); divG.idadeEmDias();
             break;
-            
-
+            case 8: Diversos divH =new Diversos(); divH.temperatura();
+            break;
+     
          }
 
 
