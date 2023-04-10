@@ -105,6 +105,21 @@ public class Diversos {
                     conversao+" °C");
 
         }
+        public void volume(){
+            //dado o raio e altura informe a capacide de Armazenamento de um cilindro
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Informe o Raio:\n");
+            double raio = sc.nextDouble();
+            System.out.println("Informe Altura");
+            double altura = sc.nextDouble();
+            //1° ver área da minha circunfêrencia
+            double area = (raio*raio)*Math.PI;
+            //2° vamos definir o volume
+            double volume = area * altura;
+            System.out.println("A capacide é de "+volume+"ml");
+
+
+        }
 
 
 }
